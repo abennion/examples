@@ -13,6 +13,8 @@ spec:
       labels:
         app: guestbook
         tier: frontend
+        blinkt: show
+        blinktColor: "3307A2"
     spec:
       containers:
       - name: php-redis

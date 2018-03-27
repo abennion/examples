@@ -15,6 +15,8 @@ spec:
         app: redis
         role: slave
         tier: backend
+        blinkt: show
+        blinktColor: "D7155C"
     spec:
       containers:
       - name: slave
